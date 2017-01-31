@@ -1,11 +1,11 @@
 {
-    "name": "spatie/pdf-to-text",
+    "name": "julusian/pdf-to-text",
     "description": "Extract text from a pdf",
     "keywords": [
         "spatie",
         "pdf-to-text"
     ],
-    "homepage": "https://github.com/spatie/pdf-to-text",
+    "homepage": "https://github.com/julusian/pdf-to-text",
     "license": "MIT",
     "authors": [
         {
