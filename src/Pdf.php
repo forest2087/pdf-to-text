@@ -17,7 +17,7 @@ class Pdf
         $this->binPath = $binPath == null ? '/usr/bin/pdftotext' : $binPath;
     }
 
-    public function setPdf(string $pdf) : Pdf
+    public function setPdf(string $pdf)
     {
         if (!file_exists($pdf)) {
             throw new PdfNotFound("could not find pdf {$pdf}");
@@ -28,7 +28,7 @@ class Pdf
         return $this;
     }
 
-    public function text() : string
+    public function text()
     {
         $process = new Process("{$this->binPath} '{$this->pdf}' -");
         $process->run();
@@ -40,7 +40,7 @@ class Pdf
         return trim($process->getOutput(), " \t\n\r\0\x0B\x0C");
     }
 
-    public static function getText(string $pdf, string $binPath = null) : string
+    public static function getText(string $pdf, string $binPath = null)
     {
         return (new static($binPath))
             ->setPdf($pdf)
