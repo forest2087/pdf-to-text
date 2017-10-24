@@ -10,7 +10,7 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="4st Test Suite">
+        <testsuite name="pdf-to-text Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

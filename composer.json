@@ -1,8 +1,8 @@
 {
-  "name": "4st/pdf-to-text",
+  "name": "forest/pdf-to-text",
   "description": "Extract text from a pdf",
   "keywords": [
-    "4st",
+    "forest",
     "pdf-to-text"
   ],
   "homepage": "https://github.com/forest2087/pdf-to-text",
@@ -22,12 +22,12 @@
   },
   "autoload": {
     "psr-4": {
-      "4st\\PdfToText\\": "src"
+      "forest\\PdfToText\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "4st\\PdfToText\\Test\\": "tests"
+      "forest\\PdfToText\\Test\\": "tests"
     }
   },
   "scripts": {

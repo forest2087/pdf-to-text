@@ -1,6 +1,6 @@
 <?php
 
-namespace 4st\PdfToText\Exceptions;
+namespace forest\PdfToText\Exceptions;
 
 use Exception;
 

@@ -4,7 +4,7 @@
 This package provides a class to extract text from a pdf.
 
 ```php
- \4st\PdfToText\Pdf::getText('book.pdf'); //returns the text from the pdf
+ \forest\PdfToText\Pdf::getText('book.pdf'); //returns the text from the pdf
 ```
 
 ## Requirements
@@ -32,7 +32,7 @@ yum install poppler-utils
 
 You can install the package via composer:
 ```bash
-$ composer require 4st/pdf-to-text
+$ composer require forest/pdf-to-text
 ```
 
 ## Usage
@@ -48,7 +48,7 @@ $text = (new Pdf())
 Or easier:
 
 ```php
- \4st\PdfToText\Pdf::getText('book.pdf')
+ \forest\PdfToText\Pdf::getText('book.pdf')
 ```
 
 By default the package will assume that the `pdftotext` is located at `/usr/bin/pdftotext`.
@@ -61,7 +61,7 @@ $text = (new Pdf('/custom/path/to/pdftotext'))
 
 or as the second parameter to the `getText`-function:
 ```php
- \4st\PdfToText\Pdf::getText('book.pdf', '/custom/path/to/pdftotext')
+ \forest\PdfToText\Pdf::getText('book.pdf', '/custom/path/to/pdftotext')
 ```
 
 ## Change log

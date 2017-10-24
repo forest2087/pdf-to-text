@@ -2,7 +2,7 @@
 
 Contributions are **welcome** and will be fully **credited**.
 
-We accept contributions via Pull Requests on [Github](https://github.com/4st/pdf-to-text).
+We accept contributions via Pull Requests on [Github](https://github.com/forest2087/pdf-to-text).
 
 
 ## Pull Requests

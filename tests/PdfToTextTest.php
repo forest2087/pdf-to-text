@@ -1,10 +1,10 @@
 <?php
 
-namespace 4st\PdfToText\Test;
+namespace forest\PdfToText\Test;
 
-use 4st\PdfToText\Exceptions\CouldNotExtractText;
-use 4st\PdfToText\Exceptions\PdfNotFound;
-use 4st\PdfToText\Pdf;
+use forest\PdfToText\Exceptions\CouldNotExtractText;
+use forest\PdfToText\Exceptions\PdfNotFound;
+use forest\PdfToText\Pdf;
 
 class PdfToTextTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace 4st\PdfToText;
+namespace forest\PdfToText;
 
-use 4st\PdfToText\Exceptions\CouldNotExtractText;
-use 4st\PdfToText\Exceptions\PdfNotFound;
+use forest\PdfToText\Exceptions\CouldNotExtractText;
+use forest\PdfToText\Exceptions\PdfNotFound;
 use Symfony\Component\Process\Process;
 
 class Pdf
