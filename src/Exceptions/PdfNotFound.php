@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\PdfToText\Exceptions;
+namespace 4st\PdfToText\Exceptions;
 
 use Exception;
 
